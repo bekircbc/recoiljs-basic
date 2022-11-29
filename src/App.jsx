@@ -2,7 +2,7 @@
 import { RecoilRoot } from "recoil";
 import "./App.css";
 
-import { CharacterCounter } from "./routes/CharacterCounter";
+import { CharacterCounter } from "./routes/charactercounter/CharacterCounter";
 import { TodoList } from "./routes/todoList/TodoList";
 
 function App() {

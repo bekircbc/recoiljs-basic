@@ -41,3 +41,17 @@
   color: blue;
   text-align: center;
 }
+
+.listTodo {
+  border: 1px solid #ccc;
+  padding: 1.4rem;
+  margin: 1rem;
+  border-radius: 5px;
+  list-style: none;
+}
+.filter {
+  border: 1px solid #ccc;
+  padding: 2.1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
