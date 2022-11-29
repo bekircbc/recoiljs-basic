@@ -24,8 +24,11 @@ function CharacterCount() {
 export const CharacterCounter = function () {
   return (
     <div>
-      <TextInput />
-      <CharacterCount />
+      <h2 className="headingCounter">Character Counter</h2>
+      <div className="characterCount">
+        <TextInput />
+        <CharacterCount />
+      </div>
     </div>
   );
 };
@@ -39,9 +42,12 @@ export const TextInput = function () {
 
   return (
     <div>
-      <input type="text" value={text} onChange={onChange} />
-      <br />
-      Echo: {text}
+      <div>
+        <input type="text" value={text} onChange={onChange} />
+        <br />
+        <br />
+        Echo: {text}
+      </div>
     </div>
   );
 };
